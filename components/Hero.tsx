@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
                 <div className="absolute inset-0 opacity-30 bg-[radial-gradient(circle_at_100%_0%,_#CBB4D4_0%,_transparent_50%)]"></div>
 
                 <img
-                  src="/assets/Mai.png"
+                  src={`${import.meta.env.BASE_URL}assets/Mai.png`}
                   alt="Thanh Mai"
                   className="w-full h-full object-cover relative z-10 brightness-[1.02] contrast-[1.05]"
                 />
